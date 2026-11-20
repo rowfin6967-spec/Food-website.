@@ -1,0 +1,9 @@
+{
+  "name": "food-site",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-community/features/dart-sdk": {}
+  },
+  "postCreateCommand": "dart pub get",
+  "forwardPorts": [8080]
+}
